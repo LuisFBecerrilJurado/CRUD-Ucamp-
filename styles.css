@@ -66,6 +66,7 @@ form {
 .dateForm{
   height: 42px;
   width: 40%;
+  border: 1px solid var(--color2);
 }
 
 .btnCreate {
@@ -150,4 +151,10 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+.date{
+  width: 80%;
+  padding: 0.5rem;
+  list-style:none;
 }

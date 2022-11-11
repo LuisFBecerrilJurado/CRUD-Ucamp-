@@ -5,7 +5,7 @@
 </p>
 
 ## Link App en linea
-- <a href="https://fastidious-fox-ca81d8.netlify.app/"  target="_blank"> Link para demostración </a>
+ <a href="https://fastidious-fox-ca81d8.netlify.app/"  target="_blank"> Link para demostración </a>
 
 ## 📖 Descripción del proyecto
 

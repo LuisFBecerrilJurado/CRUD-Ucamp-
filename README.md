@@ -5,7 +5,7 @@
 </p>
 
 ## Link App en linea
-- <a href="https://fastidious-fox-ca81d8.netlify.app/" target="blank"> Link para demostración </a>
+- <a href="https://fastidious-fox-ca81d8.netlify.app/"  target="_blank"> Link para demostración </a>
 
 ## 📖 Descripción del proyecto
 
@@ -29,12 +29,12 @@ En este caso es una Aplicación de To Do List para llevar un control de tareas a
 
 - `HTML CSS vanilla`.
 - `Javascript vanilla`.
-- <a href="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" target="blank"> Libreria JS "uuid" (para asignación de id unicas a eventos) </a>
-- <a href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" target="blank"> Libreria JS "moment" (para dar formato a las fechas en cualquier navegador) </a>
-- <a href="https://unpkg.com/sweetalert/dist/sweetalert.min.js" target="blank"> Libreria JS "sweetalert" (para mostar alertas de eerores) </a>
-- <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" target="blank"> Libreria JS "font awesome" (para funcionalidad de los iconos de check y delete) </a>
+- <a href="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"  target="_blank"> Libreria JS "uuid" (para asignación de id unicas a eventos) </a>
+- <a href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"  target="_blank"> Libreria JS "moment" (para dar formato a las fechas en cualquier navegador) </a>
+- <a href="https://unpkg.com/sweetalert/dist/sweetalert.min.js"  target="_blank"> Libreria JS "sweetalert" (para mostar alertas de eerores) </a>
+- <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  target="_blank"> Libreria JS "font awesome" (para funcionalidad de los iconos de check y delete) </a>
 
 
 ## ✒️Autor
 
-- <a href="https://github.com/LuisFBecerrilJurado" target="blank"> Luis Francisco Becerril Jurado </a>
+- <a href="https://github.com/LuisFBecerrilJurado"  target="_blank"> Luis Francisco Becerril Jurado </a>

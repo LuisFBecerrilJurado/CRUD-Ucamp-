@@ -60,7 +60,6 @@ export const createTask = ({ value, dateFormat, complete, id }) => {
     taskContent.appendChild(title);
     task.classList.add("card");
     task.appendChild(taskContent);
-    task.appendChild(dateElement)
     task.appendChild(deleteIcon(id));
     return task;
 };

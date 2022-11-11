@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TODO App</title>
-    <link rel="icon" type="image/png" href="./assets/rocket.svg" />
+    <title>TODO App-CRUD Ucamp-</title>
+    <link rel="icon" type="image/png" href="./assets/planificacion.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&family=Parisienne&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -14,13 +14,14 @@
 <body>
     <main>
         <div class="mainCard">
-            <div class="title"><img src="./assets/rocket.svg" /></div>
-                <h2 class="title"> CRUD UCAMP </h2>
+            <div class="title"><img class="title-image" src="./assets/planificacion.png" /></div>
+                <h1 class="title"> CRUD UCAMP </h1>
             <div>
                 <form action="">
                     <input type="text" name="task" placeholder="Nombre de la tarea" class="inputForm" autocomplete="off" data-form-input>
+                    <input type="date" name="date" placeholder="10/11/2022" class="dateForm" data-form-date>
                     <button type="submit" class="btnCreate" data-form-btn>
-                        Agregar <i class="fas fa-plus-circle"></i>
+                        <h2 class="btn-text"> Agregar </h2>  <img class="btn-add" src="./assets/add.png"></img>
                     </button>
                 </form>
             </div>
@@ -29,5 +30,7 @@
         </div>
     </main>
     <script type="module" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

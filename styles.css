@@ -1,16 +1,21 @@
+:root {
+  --color1: #2a0308;
+  --color2: #924f1b;
+  --color3: #e2ac3f;
+  --color4: #f8ebbe;
+  --color5: #7ba58d;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Dosis', sans-serif;
-  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  color: var(--color1);
 }
 
 main {
-  background-image: linear-gradient(
-    109.6deg,
-    rgba(62, 161, 219, 1) 11.2%,
-    rgba(93, 52, 236, 1) 100.2%
-  );
+  background: var(--color5);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -29,41 +34,60 @@ form {
 .mainCard {
   width: 40vw;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: var(--color4);
   padding: 25px;
 }
 
 .title {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   display: flex;
   justify-content: center;
   align-content: center;
   margin-bottom: 15px;
 }
 
+.title-image {
+  width: 3rem;
+}
+
 .inputForm {
   border: none;
   padding: 10px;
-  border: 1px solid #eee;
+  border: 1px solid var(--color2);
   outline: none;
-  width: 65%;
+  width: 35%;
+  margin-right: 0.5rem;
 }
 
 .inputForm::placeholder {
   padding: 0px;
 }
 
+.dateForm{
+  height: 42px;
+  width: 40%;
+}
+
 .btnCreate {
   padding: 10px 15px;
-  background-image: linear-gradient(
-    109.6deg,
-    rgba(62, 161, 219, 1) 11.2%,
-    rgba(93, 52, 236, 1) 100.2%
-  );
+  background: var(--color3);
   border: none;
-  color: #fff;
+  color: var(--color1);
   border-radius: 5px;
   cursor: pointer;
+  width: calc(40% - 20px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.btn-text{
+  font-size: 1rem;
+}
+
+.btn-add {
+  width: 1rem;
 }
 
 .cardsList {
@@ -87,6 +111,8 @@ form {
   align-content: center;
   margin: 5px 0px;
   position: relative;
+  background: var(--color4);
+  border: 1px solid var(--color2);
 }
 
 .task {
